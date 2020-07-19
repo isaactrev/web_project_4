@@ -1,0 +1,5 @@
+@import url('./_type_name/profile__item-text_type_name.css');
+@import url('./_type_occupation/profile__item-text_type_occupation.css');
+.profile__item-text {
+    display: grid;
+}

@@ -1,0 +1,21 @@
+.profile__item-text_type_name {
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 56px;
+    align-self: flex-end;
+    margin: 58px 0 0 0;
+    color: white;
+    align-self: center;
+    grid-area: name;
+}
+
+@media screen and (max-width: 480px) {
+    .profile__item-text_type_name {
+        text-align: center;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 56px;
+        margin: 0;
+    }
+}

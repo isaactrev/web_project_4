@@ -1,0 +1,14 @@
+.form__save-button {
+    font-family: 'Inter', 'Arial', sans-serif;
+    border: none;
+    width: 358px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 22px;
+    border: 48px 36px 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}

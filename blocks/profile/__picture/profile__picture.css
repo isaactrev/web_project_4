@@ -1,0 +1,14 @@
+.profile__picture {
+    max-height: 120px;
+    max-width: 120px;
+    border-radius: 50%;
+    padding: 0;
+    margin: 36.25px 20px 0 0;
+    grid-area: avatar;
+}
+
+@media screen and (max-width: 480px) {
+    .profile__picture {
+        margin: 38.25px 0 10.25px 0;
+    }
+}

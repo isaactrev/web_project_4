@@ -1,0 +1,17 @@
+.profile__item-text_type_occupation {
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 0;
+    color: white;
+    grid-area: occupation;
+}
+
+@media screen and (max-width: 480px) {
+    .profile__edit-button {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+}

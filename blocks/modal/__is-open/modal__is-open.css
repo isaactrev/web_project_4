@@ -1,0 +1,4 @@
+.modal__is-open {
+    display: flex;
+    justify-content: flex-start;
+}

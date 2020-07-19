@@ -1,0 +1,9 @@
+.card__like-button {
+    height: 18px;
+    width: 21px;
+    background-size: cover;
+    align-self: center;
+    margin-right: 30px;
+    border: none;
+    background: url("../../../images/LikeButton.png");
+}

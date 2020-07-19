@@ -1,0 +1,21 @@
+@import url('./__info/profile__info.css');
+@import url('./__add-button/profile__add-button.css');
+@import url('./__edit-button/profile__edit-button.css');
+@import url('./__picture/profile__picture.css');
+@import url('./__item-text/profile__item-text.css');
+.profile {
+    margin: 0 0 47.25px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "avatar name name name edit add" "avatar occupation . . . .";
+}
+
+@media screen and (max-width: 480px) {
+    .profile {
+        margin: 0;
+        grid-template-columns: 1fr;
+        grid-template-areas: "avatar avatar avatar" "name name edit" "occupation occupation occupation" "add add add";
+        gap: 14px;
+        justify-items: center;
+    }
+}
