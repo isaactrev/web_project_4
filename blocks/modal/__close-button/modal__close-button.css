@@ -11,4 +11,9 @@
     top: -41px;
     border-radius: 2px;
     cursor: pointer;
+    transition: .5s;
+}
+
+.modal__close-button:hover {
+    opacity: 0.6;
 }

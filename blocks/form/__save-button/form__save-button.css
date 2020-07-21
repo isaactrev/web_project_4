@@ -5,10 +5,20 @@
     height: 50px;
     font-size: 18px;
     line-height: 22px;
-    border: 48px 36px 37px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: black;
     color: white;
+    transition: .5s;
+}
+
+.form__save-button:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 480px) {
+    .form__save-button {
+        max-width: 200px;
+    }
 }

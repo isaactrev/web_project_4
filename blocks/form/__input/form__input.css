@@ -7,3 +7,9 @@
     line-height: 17px;
     color: black;
 }
+
+@media screen and (max-width: 480px) {
+    .form__input {
+        max-width: 200px;
+    }
+}

@@ -2,4 +2,6 @@
 @import url('./_type_occupation/profile__item-text_type_occupation.css');
 .profile__item-text {
     display: grid;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }

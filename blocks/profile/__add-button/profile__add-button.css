@@ -9,6 +9,11 @@
     margin-top: 75px;
     margin-left: 40px;
     grid-area: add;
+    transition: .5s;
+}
+
+.profile__add-button:hover {
+    opacity: 0.6;
 }
 
 @media screen and (max-width: 480px) {
@@ -16,3 +21,4 @@
         width: 100%;
         margin: 0;
     }
+}
