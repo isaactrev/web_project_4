@@ -1,4 +1,3 @@
-@import url('./__container/cards__container.css');
 .cards {
     max-width: 882px;
     display: grid;
