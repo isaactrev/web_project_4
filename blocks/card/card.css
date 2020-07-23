@@ -4,6 +4,7 @@
 @import url('__title-and-like-container/card__title-and-like-container.css');
 .card {
     display: flex;
+    width: 282px;
     flex-direction: column;
     justify-content: space-between;
     border-radius: 10px;
