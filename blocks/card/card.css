@@ -3,20 +3,11 @@
 @import url('__like-button/card__like-button.css');
 @import url('__title-and-like-container/card__title-and-like-container.css');
 .card {
-    display: flex;
     width: 282px;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 361px;
     border-radius: 10px;
     background-color: white;
-    position: relative;
     padding: 0;
     margin: 0;
     list-style: none;
-}
-
-@media screen and (max-width: 480px) {
-    .card {
-        flex-direction: column;
-    }
 }
