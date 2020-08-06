@@ -28,54 +28,6 @@
 
             <section class="cards">
                 <ul class="cards">
-                    <li class="card">
-                        <div class="card__image" style="background-image: url('./images/YosemiteValley.png');"></div>
-                        <div class="card__title-and-like-container">
-                            <h2 class="card__title">Yosemite Valley</h2>
-                            <button type="button" class="card__like-button"
-                                aria-label="Heart shaped like button"></button>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="card__image" style="background-image: url('./images/LakeLouise.png');"></div>
-                        <div class="card__title-and-like-container">
-                            <h2 class="card__title">Lake Louise</h2>
-                            <button type="button" class="card__like-button"
-                                aria-label="Heart shaped like button"></button>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="card__image" style="background-image: url('./images/BaldMountains.png');"></div>
-                        <div class="card__title-and-like-container">
-                            <h2 class="card__title">Bald Mountains</h2>
-                            <button type="button" class="card__like-button"
-                                aria-label="Heart shaped like button"></button>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="card__image" style="background-image: url('./images/Latemar.png');"></div>
-                        <div class="card__title-and-like-container">
-                            <h2 class="card__title">Latemar</h2>
-                            <button type="button" class="card__like-button"
-                                aria-label="Heart shaped like button"></button>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="card__image" style="background-image: url('./images/VanoisNational.png');"></div>
-                        <div class="card__title-and-like-container">
-                            <h2 class="card__title">Vanois National</h2>
-                            <button type="button" class="card__like-button"
-                                aria-label="Heart shaped like button"></button>
-                        </div>
-                    </li>
-                    <li class="card">
-                        <div class="card__image" style="background-image: url('./images/LagodiBraies.png');"></div>
-                        <div class="card__title-and-like-container">
-                            <h2 class="card__title">Lago di Braies</h2>
-                            <button type="button" class="card__like-button"
-                                aria-label="Heart shaped like button"></button>
-                        </div>
-                    </li>
                 </ul>
             </section>
         </main>
@@ -85,7 +37,7 @@
         </footer>
 
     </div>
-    <div class="modal">
+    <div class="modal modal_type_edit-profile">
         <div class="modal__container">
             <button type="button" class="modal__close-button" aria-label="Hit X to close"></button>
             <form action="#" class="form">
@@ -97,6 +49,40 @@
             </form>
         </div>
     </div>
+
+    <div class="modal modal_type_add-card">
+        <div class="modal__container">
+            <button type="button" class="modal__close-button" aria-label="Hit X to close"></button>
+            <form action="#" class="form">
+                <h2 class="form__title">New Place</h2>
+                <input type="text" class="form__input form__input_type_card-title" placeholder="Title">
+
+                <input type="url" class="form__input form__input_type_url" placeholder="Image-Link">
+                <button type="submit" class="form__save-button" aria-label="Save button">Save</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal modal_type_image">
+        <div class="modal__container">
+            <button type="button" class="modal__close-button" aria-label="Hit X to close"></button>
+            <figure class="modal__figure">
+                <img class="modal__image" src="" alt="">
+                <figcaption class="modal__image-title"></figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <template class="card-template">
+        <li class="card">
+            <button type="button" class="card__delete-button" aria-label="Rubbish bin"></button>
+            <div class="card__image" style=""></div>
+            <div class="card__title-and-like-container">
+                <h2 class="card__title"></h2>
+                <button type="button" class="card__like-button" aria-label="Heart shaped like button"></button>
+            </div>
+        </li>
+    </template>
     <script src="index.js"></script>
 </body>
 
