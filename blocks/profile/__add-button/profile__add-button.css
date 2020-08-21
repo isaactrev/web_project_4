@@ -9,6 +9,7 @@
     margin-top: 75px;
     margin-left: 40px;
     grid-area: add;
+    cursor: pointer;
     transition: .5s;
 }
 

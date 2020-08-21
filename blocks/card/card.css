@@ -2,6 +2,9 @@
 @import url('__title/card__title.css');
 @import url('__like-button/card__like-button.css');
 @import url('__title-and-like-container/card__title-and-like-container.css');
+@import url('__delete-button/card__delete-button.css');
+@import url('__delete-button-icon/card__delete-button-icon.css');
+@import url('__like-button_active/card__like-button_active.css');
 .card {
     width: 282px;
     height: 361px;
@@ -10,4 +13,5 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    position: relative;
 }
